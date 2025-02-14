@@ -54,18 +54,17 @@ nav ul li a:active {
         <div class="logo">
             <img src="images/logo2.png" alt="Himalayan Cafe Logo">
         </div>
-        <?php
-        $menuFile = 'menu.php';
         <nav>
             <ul>
-                <li><a href="proj.html">HOME</a></li>
-                <li><a href="menu.html">MENU</a></li>
+                <li><a href="main.php">HOME</a></li>
+                <li><a href="menu.php">MENU</a></li>
                 <li><a href="#order">ORDER</a></li>
                 <li><a href="#locations">LOCATION</a></li>
                 <li><a href="#about">ABOUT</a></li>
                 <li><a href="#review">REVIEW</a></li>
                 <li><a href="#feedback">FEEDBACK</a></li>
                 <li><a href="#contact">CONTACT</a></li>
+                <li><a href="login.php">Login</a></li>
             </ul>
         </nav>
 </header>

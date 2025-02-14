@@ -1,6 +1,5 @@
 <!-- footer.php -->
  <style>
-
 footer {
     text-align: center;
     padding: 20px;
@@ -15,7 +14,7 @@ footer a {
 footer .social-icons img {
     width: 30px;
     margin: 0 10px;
-}
+
  </style>
 <footer>
         <div id="contact">

@@ -228,7 +228,7 @@ button a {
                 <p><b>€5.50</b></p>
             </div>
         </div>
-        <button class="button"><a href="menu.html">See more Drinks</a></button>
+        <button class="button"><a href="menu.php">See more Drinks</a></button>
     </section>
     <section class="order" id="order">
         <h2>Place Your Order</h2>

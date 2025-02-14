@@ -103,7 +103,7 @@
             <hr>
           </div>
           <div class="button">
-            <button> <a href="proj.html">Back to Home</a></button>
+            <button> <a href="main.php">Back to Home</a></button>
           </div>
             
         </div>
