@@ -2,7 +2,7 @@
 
 include 'connect1.php';
 
-if((isset($_POST['signUp']))) {
+if((isset($_POST['signup1']))) {
     $firstName = $_POST["fname"];
     $lastName = $_POST["lname"];
     $email = $_POST["email"];
