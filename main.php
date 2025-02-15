@@ -1,7 +1,5 @@
 <?php
 //include the header file
-session_start();
-include("connect.php");    
 $title = "My Title";
 include 'header.php';
 ?>
