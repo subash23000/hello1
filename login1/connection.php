@@ -5,7 +5,8 @@ $dbuser = "root";
 $dbpass = "";
 $dbname = "login_sample_db";
 
-if($conn = mysqli_connect($dbhost, $dbuser, $dbpass, $dbname)) {
+$conn = mysqli_connect($dbhost, $dbuser, $dbpass, $dbname);
+if(!$conn) {
     die("failed to connect! ");
 }
 
