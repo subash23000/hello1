@@ -1,10 +1,10 @@
-<!-- <?php
+<?php
 
 include 'connect.php';
 
 if((isset($_POST['signUp']))) {
-    $firstName = $_POST["fName"];
-    $lastName = $_POST["lName"];
+    $firstName = $_POST["fname"];
+    $lastName = $_POST["lname"];
     $email = $_POST["email"];
     $password = $_POST["password"];
     $password = md5($password);
@@ -15,7 +15,7 @@ if((isset($_POST['signUp']))) {
         echo "Email Address Already Exists!";
     } else {
         $insertQuery = "INSERT INTO users(firstName, lastName, email, password)
-        VALUES ('$firstName','$lastName','$email','$password')";
+        VALUES ('$firstname','$lastname','$email','$password')";
         if($conn->query($insertQuery)==TRUE) {
             header("Location: main.php");
         } else {
@@ -40,4 +40,4 @@ if(isset($_POST["signIn"])) {
         echo "Not Found, Incorrect Email or Password";
     }
 }
-?> -->
+?>
