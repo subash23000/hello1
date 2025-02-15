@@ -14,7 +14,7 @@ if((isset($_POST['signUp']))) {
     if($result->num_rows > 0) {
         echo "Email Address Already Exists!";
     } else {
-        $insertQuery = "INSERT INTO users(firstName, lastName, email, password)
+        $insertQuery = "INSERT INTO users(firstname, lastname, email, password)
         VALUES ('$firstname','$lastname','$email','$password')";
         if($conn->query($insertQuery)==TRUE) {
             header("Location: signup1.php");
