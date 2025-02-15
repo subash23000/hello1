@@ -235,7 +235,7 @@ button a {
     <section class="order" id="order">
         <h2>Place Your Order</h2>
         <p>Order your favourite drinks and pastries online and pick them up at your convenience.</p>
-        <form action="register.php" method="post">
+        <form action="#" method="post">
             <div class="form-group">
                 <label for="name">Full Name:</label>
                 <input type="text" id="name" name="name" placeholder="Enter your name" required>
@@ -297,7 +297,7 @@ button a {
     <section class="feedback" id="feedback">
         <h2>We Value YOur Feedback</h2>
         <p>Let us know how we can improve your experience.</p>
-        <form action="register.php" method="post">
+        <form action="#" method="post">
             <div class="form-group">
                 <input type="text" name="name" placeholder="Your Name" required>
             </div>
