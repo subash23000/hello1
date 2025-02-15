@@ -2,7 +2,7 @@
 
 include 'connect1.php';
 
-if((isset($_POST['signup1']))) {
+if((isset($_POST['login-form']))) {
     $firstName = $_POST["fname"];
     $lastName = $_POST["lname"];
     $email = $_POST["email"];
@@ -17,13 +17,13 @@ if((isset($_POST['signup1']))) {
         $insertQuery = "INSERT INTO users(firstname, lastname, email, password)
         VALUES ('$firstname','$lastname','$email','$password')";
         if($conn->query($insertQuery)==TRUE) {
-            header("Location: signup1.php");
+            header("Location: homepage.php");
         } else {
             echo "Error:".$conn->error;
         }
     }
 }
-if(isset($_POST['signIn'])) {
+if(isset($_POST['signup-form'])) {
     $email = $_POST['email'];
     $password = $_POST['password'];
     $password = md5($password);
