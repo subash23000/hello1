@@ -44,10 +44,10 @@
 <body>
     <div class="login-container">
         <h2>Login</h2>
-        <form action="">
+        <form action="register.php" method="post">
             <input type="text" placeholder="Username" required>
             <input type="password" placeholder="Password" required>
-            <button type="submit">Login</button>
+            <button type="submit" value="login" name="login">Login</button>
         </form>
         <div class="signup">
             <p>Don't have a account? <a href="signup.php"> Sign up </a></p>

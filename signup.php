@@ -65,7 +65,7 @@
     <div class="container">
         <div id="login-form">
             <h2>Login</h2>
-            <form>
+            <form action="register.php" method="post">
                 <input type="text" placeholder="Username" required>
                 <input type="password" placeholder="Password" required>
                 <button type="submit">Login</button>
@@ -77,11 +77,11 @@
         
         <div id="signup-form" style="display: none;">
             <h2>Sign Up</h2>
-            <form>
+            <form action="register.php" method="post">
                 <input type="text" placeholder="Username" required>
                 <input type="email" placeholder="Email" required>
                 <input type="password" placeholder="Password" required>
-                <button type="submit">Sign Up</button>
+                <button type="submit" value="Sign up" name="signUp">Sign Up</button>
             </form>
             <div class="toggle-link">
                 <p>Already have an account? <a onclick="toggleForm()">Login</a></p>
