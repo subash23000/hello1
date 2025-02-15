@@ -1,4 +1,4 @@
-<?php
+<!-- <?php
 
 include 'connect.php';
 
@@ -40,4 +40,4 @@ if(isset($_POST["signIn"])) {
         echo "Not Found, Incorrect Email or Password";
     }
 }
-?>
+?> -->
