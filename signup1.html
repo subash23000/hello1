@@ -53,25 +53,27 @@
         }
     </style>
     <script>
-        // function toggleForm() {
-        //     const loginForm = document.getElementById("login-form");
-        //     const signupForm = document.getElementById("signup-form");
-        //     loginForm.style.display = loginForm.style.display === "none" ? "block" : "none";
-        //     signupForm.style.display = signupForm.style.display === "none" ? "block" : "none";
-        // }
-        const signUpButton = document.getElementById("signin");
-        const signInButton = document.getElementById("signin");
-        const signInForm = document.getElementById("signin");
-        const signUpForm = document.getElementById("signin");
+        function toggleForm() {
+            const loginForm = document.getElementById("login-form");
+            const signupForm = document.getElementById("signup-form");
+            loginForm.style.display = loginForm.style.display === "none" ? "block" : "none";
+            signupForm.style.display = signupForm.style.display === "none" ? "block" : "none";
+        }
 
-        signUpButton.addEventListener('click', function() {
-            signInForm.style.display="none";
-            signUpForm.style.display="block";
-        })
-        signInButton.addEventListener('click', function() {
-            signInForm.style.display="none";
-            signUpForm.style.display="block";
-        })
+
+        // const signUpButton = document.getElementById("signin");
+        // const signInButton = document.getElementById("signin");
+        // const signInForm = document.getElementById("signin");
+        // const signUpForm = document.getElementById("signin");
+
+        // signUpButton.addEventListener('click', function() {
+        //     signInForm.style.display="none";
+        //     signUpForm.style.display="block";
+        // })
+        // signInButton.addEventListener('click', function() {
+        //     signInForm.style.display="none";
+        //     signUpForm.style.display="block";
+        // })
 
     </script>
 </head>
