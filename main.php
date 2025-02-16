@@ -185,6 +185,55 @@ button a {
 .reviews h2 {
     color: #ff8800;
 }
+/*  */
+
+@media (max-width: 769px) {
+    /* this is for tablets and smaller screens */
+    .intro h1 {
+        font-size: 28px;
+    }
+    .intro p {
+        font-size: 16px;
+    }
+    .menu .drinks {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+        justify-content: center;
+    }
+    .menu .drink {
+        width: 45%;
+        margin-bottom: 20px;
+    }
+    .order form {
+        display: grid;
+    }
+  
+}
+@media (max-width: 480px) {
+    /* this is for small screens like mobile phones */
+   
+    .intro h1 {
+        font-size: 24px;
+    }
+    .intro p {
+        font-size: 14px;
+    }
+    .menu .drinks {
+        flex-direction: column;
+        gap: 15px;
+    }
+    .menu .drink {
+        width: 100%;
+        text-align: center;
+    }
+    .order form {
+        padding: 20px;
+    }
+}
+
+
+/*  */
 </style>
 
 <main>

@@ -14,7 +14,21 @@ footer a {
 footer .social-icons img {
     width: 30px;
     margin: 0 10px;
+/*  */
 
+
+
+@media (max-width: 769px) {
+    /* this is for tablets and smaller screens */
+    footer .social-icons {
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+    }
+}
+
+
+/*  */
  </style>
 <footer>
         <div id="contact">

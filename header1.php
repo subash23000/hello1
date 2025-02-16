@@ -44,6 +44,38 @@ nav ul li a:active {
     padding: 8px 12px;
     border-radius: 5px;
 }
+
+/*  */
+
+@media (max-width: 769px) {
+    /* this is for tablets and smaller screens */
+    header {
+        flex-direction: column;
+        align-items: flex-start;
+        position: static;
+        top: -20px;
+        z-index: 1000;
+    }
+    nav ul {
+        flex-direction: column;
+        gap: 10px;
+        align-items: flex-start;
+    }
+}
+@media (max-width: 480px) {
+    /* this is for small screens like mobile phones */
+    header {
+        padding: 15px;
+        text-align: center;
+        position: static;
+        top: -20;
+        z-index: 1000;
+    }
+    nav ul li {
+        font-size: 16px;
+    }
+}
+
         
     </style>
 
@@ -60,7 +92,7 @@ nav ul li a:active {
                 <li><a href="menu.php">MENU</a></li>
                 <li><a href="#order">ORDER</a></li>
                 <li><a href="#locations">LOCATION</a></li>
-                <li><a href="#reservation">Reservation</a></li>
+                <li><a href="#reservation">RESERVATION</a></li>
                 <li><a href="#about">ABOUT</a></li>
                 <li><a href="#review">REVIEW</a></li>
                 <li><a href="#feedback">FEEDBACK</a></li>
