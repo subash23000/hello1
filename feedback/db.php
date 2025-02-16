@@ -1,5 +1,5 @@
 <?php
-$conn = mysqli_connect("localhost", "root", "root", "simple_db");
+$conn = mysqli_connect("localhost", "root", "root", "feedback_db");
 
 // MAMP default username: root / password: root
 if (!$conn) { 
@@ -7,3 +7,12 @@ if (!$conn) {
 }
 ?>
 
+
+
+
+
+
+
+
+
+<!-- feedback_db -->
