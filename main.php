@@ -1,7 +1,7 @@
 <?php
 //include the header file
 $title = "My Title";
-include 'header.php';
+include 'header1.php';
 ?>
 <style>
 .intro{
