@@ -60,6 +60,7 @@ nav ul li a:active {
                 <li><a href="menu.php">MENU</a></li>
                 <li><a href="#order">ORDER</a></li>
                 <li><a href="#locations">LOCATION</a></li>
+                <li><a href="#reservation">Reservation</a></li>
                 <li><a href="#about">ABOUT</a></li>
                 <li><a href="#review">REVIEW</a></li>
                 <li><a href="#feedback">FEEDBACK</a></li>

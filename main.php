@@ -47,23 +47,27 @@ button a {
     text-decoration: none;
 }
 
-.order {
+.order,
+.reservation-form {
     text-align: center;
     padding: 50px 20px;
     background: white;
     border-top: 5px solid #ff8800;
 }
-.order h2 {
+.order h2,
+.reservation-form h2 {
     color: #ff8800;
     font-size: 2rem;
     margin-bottom: 10px;
 }
-.order p {
+.order p,
+.reservation-form p {
     font-size: 1.2rem;
     color: gray;
     margin-bottom: 30px;
 }
-.order form {
+.order form,
+.reservation-form {
     max-width: 600px;
     margin: 0 auto;
     background-color: #fff;
@@ -88,7 +92,9 @@ button a {
     border: 1px solid grey;
     border-radius: 5px;
 }
-.order-button, .button {
+.order-button,
+.button,
+.reserve-button {
     display: inline-block;
     background-color: #ff8800;
     color: white;
@@ -291,6 +297,48 @@ button a {
             <img src="images/Cafe4.jpg" alt="Cafe Location">
             <p>Pispankatu 30, 33240 Tampere</p>
         </div>
+    </section>
+    <section id="reservation" class="reservation-form">
+        <h2>Reserve Your Table</h2>
+        <p>Fill out the form below to reserve your spot at Himalayan Cafe.</p>
+        <form action="submit_reservation.php" method="post">
+            <div class="form-group">
+                <label for="name">Full Name:</label>
+                <input type="text" id="name" name="name" placeholder="Enter your name" required>
+            </div>
+
+            <div class="form-group">
+                <label for="email">Email Address:</label>
+                <input type="email" id="email" name="email" placeholder="Enter your email" required>
+            </div>
+
+            <div class="form-group">
+                <label for="phone">Phone Number:</label>
+                <input type="tel" id="phone" name="phone" placeholder="Enter your phone number" required>
+            </div>
+
+            <div class="form-group">
+                <label for="date">Reservation Date:</label>
+                <input type="date" id="date" name="date" required>
+            </div>
+
+            <div class="form-group">
+                <label for="time">Reservation Time:</label>
+                <input type="time" id="time" name="time" required>
+            </div>
+
+            <div class="form-group">
+                <label for="guests">Number of Guests:</label>
+                <input type="number" id="guests" name="guests" min="1" max="10" required>
+            </div>
+
+            <div class="form-group">
+                <label for="message">Special Requests:</label>
+                <textarea name="message" id="message" placeholder="Any special requests?" rows="4"></textarea>
+            </div>
+
+            <button type="submit" class="reserve-button">Make Reservation</button>
+        </form>
     </section>
     <section class="feedback" id="feedback">
         <h2>We Value YOur Feedback</h2>
