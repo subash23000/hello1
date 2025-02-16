@@ -7,17 +7,17 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $password = password_hash($_POST['password'], PASSWORD_DEFAULT); // Secure hashing
 
     $sql = "INSERT INTO users (username, email, password) VALUES (?, ?, ?)";
-    $stmt = $conn->prepare($sql);
-    $stmt->bind_param("sss", $username, $email, $password);
+    // $stmt = $conn->prepare($sql);
+    // $stmt->bind_param("sss", $username, $email, $password);
 
-    if ($stmt->execute()) {
-        echo "Registration successful! <a href='login.php'>Login Here</a>";
-    } else {
-        echo "Error: " . $stmt->error;
-    }
+    // if ($stmt->execute()) {
+    //     echo "Registration successful! <a href='login.php'>Login Here</a>";
+    // } else {
+    //     echo "Error: " . $stmt->error;
+    // }
 
-    $stmt->close();
-    $conn->close();
+    // $stmt->close();
+    // $conn->close();
 }
 ?>
 
