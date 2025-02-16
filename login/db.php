@@ -7,3 +7,4 @@ if (!$conn) {
 }
 ?>
 
+<!-- simple_db -->
