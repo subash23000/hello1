@@ -1,7 +1,7 @@
 <?php
 $host = "localhost";
 $user = "root";  // Change if using different DB credentials
-$pass = "";      // Change accordingly
+$pass = "9805245839";      // Change accordingly
 $dbname = "user_system";
 
 $conn = new mysqli($host, $user, $pass, $dbname);
