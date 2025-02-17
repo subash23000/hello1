@@ -24,5 +24,6 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     <input type="text" name="username" required placeholder="Username">
     <input type="password" name="password" required placeholder="Password">
     <button type="submit">Login</button>
+    <button href="login/register.php">Register</button>
 </form>
 <!-- simple_db -->
