@@ -1,25 +1,11 @@
-<?php
-session_start();
-if (!isset($_SESSION['username'])) { 
-    header("Location: login.php"); 
-    exit(); 
-}
-?>
-
-<!-- <h2>Welcome, <?php echo $_SESSION['username']; ?>!</h2>
-<a href="logout.php">Logout</a> -->
-
-
-<!--  -->
-
-<!-- <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>
         <?php echo $title; ?>
-    </title> -->
+    </title>
     <style>
 
 header {
@@ -97,8 +83,6 @@ nav ul li a:active {
 </head>
 <body>
 <header> 
-<h2>Welcome, <?php echo $_SESSION['username']; ?>!</h2>
-<!-- <a href="logout.php">Logout</a> -->
         <div class="logo">
             <img src="images/logo2.png" alt="Himalayan Cafe Logo">
         </div>
@@ -106,17 +90,14 @@ nav ul li a:active {
             <ul>
                 <li><a href="main.php">HOME</a></li>
                 <li><a href="menu.php">MENU</a></li>
-                <li><a href="#order">ORDER</a></li>
+                <!-- <li><a href="order/order.php">ORDER</a></li> -->
                 <li><a href="#locations">LOCATION</a></li>
-                <li><a href="reservation/reservation.php">RESERVATION</a></li>
+                <!-- <li><a href="reservation/reservation.php">RESERVATION</a></li> -->
                 <li><a href="#about">ABOUT</a></li>
                 <li><a href="#review">REVIEW</a></li>
-                <li><a href="#feedback">FEEDBACK</a></li>
+                <!-- <li><a href="#feedback">FEEDBACK</a></li> -->
                 <li><a href="#contact">CONTACT</a></li>
-                <li><a href="logout.php">LOGOUT</a></li>
+                <li><a href="login/login.php">Login</a></li>
             </ul>
         </nav>
 </header>
-
-
-<!--  -->

@@ -1,4 +1,4 @@
-<h2>Place an Order</h2>
+<!-- <h2>Place an Order</h2>
 <form action="order.php" method="post">
     <div class="form-group">
         <label for="name">Full Name:</label>
@@ -36,4 +36,4 @@
     </div>
 
     <button type="submit" class="order-button">Place Order</button>
-</form>
+</form> -->
