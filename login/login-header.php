@@ -3,9 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>
-        <?php echo $title; ?>
-    </title>
+    <title>Header</title>
     <style>
 
 header {
@@ -82,22 +80,36 @@ nav ul li a:active {
 
 </head>
 <body>
-<header> 
+    <header> 
+        <h2>Welcome, <?php echo $_SESSION['username']; ?>!</h2>
+<!-- <a href="logout.php">Logout</a> -->
         <div class="logo">
             <img src="images/logo2.png" alt="Himalayan Cafe Logo">
         </div>
         <nav>
             <ul>
-                <li><a href="main.php">HOME</a></li>
-                <!-- <li><a href="menu.php">MENU</a></li> -->
-                <!-- <li><a href="order/order.php">ORDER</a></li> -->
-                <li><a href="#locations">LOCATION</a></li>
-                <!-- <li><a href="reservation/reservation.php">RESERVATION</a></li> -->
+                <li><a href="dashboard.php">HOME</a></li>
+                <li><a href="menu.php">MENU</a></li>
+                <li><a href="order/order.php">ORDER</a></li>
+                <li><a href="#">LOCATION</a></li>
+                <li><a href="reservation/reservation.php">RESERVATION</a></li>
                 <li><a href="#about">ABOUT</a></li>
-                <!-- <li><a href="#review">REVIEW</a></li> -->
-                <!-- <li><a href="#feedback">FEEDBACK</a></li> -->
-                <li><a href="#contact">CONTACT</a></li>
-                <li><a href="login.php">LOGIN</a></li>
+                <li><a href="#">REVIEW</a></li>
+                <li><a href="#">FEEDBACK</a></li>
+                <li><a href="#">CONTACT</a></li>
+                <li><a href="main.php">LOGOUT</a></li>
             </ul>
         </nav>
-</header>
+    </header>
+
+
+
+
+
+
+
+
+
+
+
+

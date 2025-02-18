@@ -11,7 +11,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
     if ($user && password_verify($password, $user['password'])) {
         $_SESSION['username'] = $username;
-        header("Location: main.php");
+        header("Location: dashboard.php");
         exit();
     } else {
         echo "Invalid username or password!";
