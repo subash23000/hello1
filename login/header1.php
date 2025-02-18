@@ -91,6 +91,7 @@ nav ul li a:active {
                 <li><a href="main.php">HOME</a></li>
                 <li><a href="#about">ABOUT</a></li>
                 <li><a href="#locations">LOCATION</a></li>
+                <li><a href="#review">REVIEW</a></li>
                 <li><a href="#contact">CONTACT</a></li>
                 <li><a href="login.php">LOGIN</a></li>
             </ul>

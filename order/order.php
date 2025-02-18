@@ -74,4 +74,5 @@ button:hover {
     <textarea name="message" placeholder="Additional Message"></textarea>
     <button type="submit">Submit Order</button>
     <button><a href="view_orders.php">View Orders</a></button>
+    <button><a href="../login/dashboard.php">Back to Home</a></button>
 </form>
