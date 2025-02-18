@@ -10,10 +10,14 @@ footer a {
     color: #ff8800;
     text-decoration: none;
 }
-
+footer .social-icons{
+    background-color: white;
+    padding-left: -50px;
+}
 footer .social-icons img {
     width: 30px;
     margin: 0 10px;
+    background-color: white;
 /*  */
 
 

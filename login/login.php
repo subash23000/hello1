@@ -58,7 +58,7 @@ button:hover {
     <input type="text" name="username" required placeholder="Username">
     <input type="password" name="password" required placeholder="Password">
     <button type="submit">Login</button>
-    <!-- <button href="login/register.php" type="submit">Register</button> -->
+    <button href="login/register.php" type="submit">Register</button>
     <a href="login/register.php"> <button>Register1</button></a>
 </form>
 <!-- simple_db -->

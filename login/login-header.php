@@ -1,3 +1,5 @@
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -80,7 +82,7 @@ nav ul li a:active {
 <body>
     <header> 
         <h2>Welcome, <?php echo $_SESSION['username']; ?>!</h2>
-<!-- <a href="logout.php">Logout</a> -->
+        <!-- <a href="logout.php">Logout</a> -->
         <div class="logo">
             <img src="images/logo2.png" alt="Himalayan Cafe Logo">
         </div>
@@ -88,13 +90,13 @@ nav ul li a:active {
             <ul>
                 <li><a href="dashboard.php">HOME</a></li>
                 <li><a href="menu.php">MENU</a></li>
-                <li><a href="order.php">ORDER</a></li>
+                <li><a href="../order/order.php">ORDER</a></li>
                 <li><a href="#locations">LOCATION</a></li>
-                <li><a href="reservation/reservation.php">RESERVATION</a></li>
+                <li><a href="../reservation/reservation.php">RESERVATION</a></li>
                 <li><a href="#about">ABOUT</a></li>
-                <li><a href="#">REVIEW</a></li>
-                <li><a href="/feedback/index.php">FEEDBACK</a></li>
-                <li><a href="#">CONTACT</a></li>
+                <li><a href="#review">REVIEW</a></li>
+                <li><a href="../feedback/index.php">FEEDBACK</a></li>
+                <li><a href="#contact">CONTACT</a></li>
                 <li><a href="main.php">LOGOUT</a></li>
             </ul>
         </nav>

@@ -89,13 +89,8 @@ nav ul li a:active {
         <nav>
             <ul>
                 <li><a href="main.php">HOME</a></li>
-                <!-- <li><a href="menu.php">MENU</a></li> -->
-                <!-- <li><a href="order/order.php">ORDER</a></li> -->
-                <li><a href="#locations">LOCATION</a></li>
-                <!-- <li><a href="reservation/reservation.php">RESERVATION</a></li> -->
                 <li><a href="#about">ABOUT</a></li>
-                <!-- <li><a href="#review">REVIEW</a></li> -->
-                <!-- <li><a href="#feedback">FEEDBACK</a></li> -->
+                <li><a href="#locations">LOCATION</a></li>
                 <li><a href="#contact">CONTACT</a></li>
                 <li><a href="login.php">LOGIN</a></li>
             </ul>
