@@ -5,10 +5,50 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Reservation</title>
     <style>
-        .reservation-form { text-align: center; padding: 20px; }
+        /* .reservation-form { text-align: center; padding: 20px; }
         .form-group { margin: 10px 0; }
         input, textarea { width: 100%; padding: 10px; }
-        .reserve-button { padding: 10px 20px; cursor: pointer; }
+        .reserve-button { padding: 10px 20px; cursor: pointer; } */
+        form {
+    max-width: 400px;
+    margin: 20px auto;
+    padding: 20px;
+    background: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+input, textarea, button {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+input:focus, textarea:focus {
+    outline: none;
+    border-color: #007bff;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+
+button {
+    background: #007bff;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.3s;
+    border: none;
+}
+
+button:hover {
+    background: #0056b3;
+}
+
     </style>
 </head>
 <body>
