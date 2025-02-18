@@ -22,10 +22,56 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Feedback</title>
     <style>
-        .feedback { text-align: center; padding: 20px; }
+        /* .feedback { text-align: center; padding: 20px; }
         .form-group { margin: 10px 0; }
         input, textarea { width: 100%; padding: 10px; }
-        .feedback-button { padding: 10px 20px; cursor: pointer; }
+        .feedback-button { padding: 10px 20px; cursor: pointer; } */
+ .feedback {
+    text-align: center;
+    padding: 50px 20px;
+    background: white;
+}
+.form-group {
+    margin: 10px 0;
+}
+input,
+textarea {
+    width: 100%;
+    padding: 10px;
+}
+
+.feedback h2 {
+    color: #ff8800;
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+.feedback p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+    color: gray;
+}
+.feedback form {
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px;
+
+}
+.feedback-button {
+    display: inline-block;
+    background: #ff8800;
+    color: #fff;
+    border: none;
+    padding: 15px 30px;
+    font-size: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.feedback-button:hover {
+    background-color: black;
+    color: white;
+}
     </style>
 </head>
 <body>

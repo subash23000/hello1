@@ -1,4 +1,4 @@
-<?php
+<!-- <?php
 //include the header file
 $title = "My Title";
 include 'header1.php';
@@ -424,4 +424,4 @@ button a {
 //include the footer file
 include 'footer.php';
 
-?>
+?> -->

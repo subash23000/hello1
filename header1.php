@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!-- <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -100,4 +100,4 @@ nav ul li a:active {
                 <li><a href="login/login.php">Login</a></li>
             </ul>
         </nav>
-</header>
+</header> -->

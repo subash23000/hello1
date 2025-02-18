@@ -429,6 +429,7 @@ button a {
 
 
 <?php
+// adding login footer
 include'login-footer.php';
 ?>
 
@@ -440,7 +441,7 @@ include'login-footer.php';
 
 
 
-<!--  -->
+ <!-- -->
 <!--  -->
 <!-- <h2>Welcome, <?php echo $_SESSION['username']; ?>!</h2>
 <a href="logout.php">Logout</a> -->

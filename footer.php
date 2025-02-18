@@ -1,4 +1,4 @@
-<!-- footer.php -->
+<!-- footer.php
  <style>
 footer {
     text-align: center;
@@ -44,4 +44,4 @@ footer .social-icons img {
  </footer>
 
  </body>
-</html>
+</html> -->

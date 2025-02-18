@@ -1,4 +1,3 @@
-<!-- footer.php -->
  <style>
 footer {
     text-align: center;

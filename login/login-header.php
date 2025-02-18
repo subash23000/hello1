@@ -72,9 +72,7 @@ nav ul li a:active {
     nav ul li {
         font-size: 16px;
     }
-}
-
-        
+}    
     </style>
 
 
@@ -90,12 +88,12 @@ nav ul li a:active {
             <ul>
                 <li><a href="dashboard.php">HOME</a></li>
                 <li><a href="menu.php">MENU</a></li>
-                <li><a href="order/order.php">ORDER</a></li>
-                <li><a href="#">LOCATION</a></li>
+                <li><a href="order.php">ORDER</a></li>
+                <li><a href="#locations">LOCATION</a></li>
                 <li><a href="reservation/reservation.php">RESERVATION</a></li>
                 <li><a href="#about">ABOUT</a></li>
                 <li><a href="#">REVIEW</a></li>
-                <li><a href="#">FEEDBACK</a></li>
+                <li><a href="/feedback/index.php">FEEDBACK</a></li>
                 <li><a href="#">CONTACT</a></li>
                 <li><a href="main.php">LOGOUT</a></li>
             </ul>
