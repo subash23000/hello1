@@ -36,7 +36,8 @@ input {
     border-radius: 3px;
 }
 
-button {
+button,
+button a {
     width: 95%;
     padding: 10px;
     margin-top: 10px;
@@ -45,10 +46,16 @@ button {
     color: white;
     border-radius: 3px;
     cursor: pointer;
+    text-decoration: none;
+}
+button a:hover {
+    background: wheat;
 }
 
-button:hover {
-    background: #0056b3;
+button:hover,
+button a:hover {
+    background: wheat;
+    color: black;
 }
 
 </style>
