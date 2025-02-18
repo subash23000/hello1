@@ -34,7 +34,11 @@ input:focus, textarea:focus {
     border-color: #007bff;
     box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
 }
+button a {
+    color: white;
+    text-decoration: none;
 
+}
 button {
     background: #007bff;
     color: white;
@@ -43,6 +47,7 @@ button {
     cursor: pointer;
     transition: background 0.3s;
     border: none;
+
 }
 
 button:hover {
@@ -93,6 +98,8 @@ button:hover {
         </div>
 
         <button type="submit" class="reserve-button">Make Reservation</button>
+        <button><a href="../login/dashboard.php">Back to Home</a></button>
+
     </form>
 </section>
 

@@ -58,7 +58,12 @@ textarea {
     border-radius: 10px;
 
 }
-.feedback-button {
+button a {
+    color: white;
+    text-decoration: none;
+}
+.feedback-button,
+button {
     display: inline-block;
     background: #ff8800;
     color: #fff;
@@ -68,7 +73,8 @@ textarea {
     border-radius: 5px;
     cursor: pointer;
 }
-.feedback-button:hover {
+.feedback-button:hover,
+button:hover {
     background-color: black;
     color: white;
 }
@@ -87,6 +93,8 @@ textarea {
             <textarea id="message" name="message" placeholder="Your Feedback" required></textarea>
         </div>
         <button type="submit" class="feedback-button">Submit</button>
+        <button><a href="../login/dashboard.php">Back to Home</a></button>
+
     </form>
 </section>
 

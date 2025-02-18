@@ -47,7 +47,8 @@ input:focus, textarea:focus {
     box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
 }
 
-button {
+button,
+button a {
     background: #007bff;
     color: white;
     font-size: 18px;
@@ -55,6 +56,8 @@ button {
     cursor: pointer;
     transition: background 0.3s;
     border: none;
+    text-decoration: none;
+
 }
 
 button:hover {
