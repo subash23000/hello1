@@ -11,8 +11,8 @@ footer a {
     text-decoration: none;
 }
 footer .social-icons{
-    background-color: white;
-    padding-left: -50px;
+    /* background-color: white;
+    padding-left: -50px; */
 }
 footer .social-icons img {
     width: 30px;

@@ -18,44 +18,77 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     }
 }
 ?>
+
+
 <style>
-    form {
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+    margin-top: 10%;
+    }
+   /* Form Styling */
+form {
     width: 300px;
     margin: 50px auto;
     padding: 20px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
+    background: #f5ebe0; /* Light coffee cream */
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     text-align: center;
 }
 
+/* Input Fields */
 input {
-    width: 90%;
-    padding: 8px;
-    margin: 10px 0;
-    border: 1px solid #ccc;
-    border-radius: 3px;
-}
-
-button,
-button a {
-    width: 95%;
+    width: 100%;
     padding: 10px;
-    margin-top: 10px;
-    border: none;
-    background: #007bff;
-    color: white;
-    border-radius: 3px;
-    cursor: pointer;
-    text-decoration: none;
-}
-button a:hover {
-    background: wheat;
+    margin: 10px 0;
+    border: 1px solid #c2a383; /* Soft coffee brown */
+    border-radius: 5px;
+    font-size: 16px;
+    background: #fff;
+    color: #5d4037;
 }
 
-button:hover,
+input:focus {
+    outline: 2px solid #a67c52; /* Warm highlight */
+}
+
+/* Buttons */
+button {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    background: #a67c52; /* Light coffee brown */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background 0.3s;
+}
+
+button:hover {
+    background: #8d6e63; /* Slightly darker brown */
+}
+
+/* Register Button Fix */
+button a {
+    text-decoration: none;
+    color: white;
+    display: block;
+    width: 100%;
+}
+
 button a:hover {
-    background: wheat;
-    color: black;
+    text-decoration: underline;
+}
+
+/* Light Background for Coffee Vibes */
+body {
+    background: #fffaf1; /* Soft creamy white */
+    color: #5d4037;
+    font-family: 'Arial', sans-serif;
 }
 
 </style>
@@ -65,7 +98,6 @@ button a:hover {
     <input type="text" name="username" required placeholder="Username">
     <input type="password" name="password" required placeholder="Password">
     <button type="submit">Login</button>
-    <!-- <button href="login/register.php" type="submit">Register</button> -->
     <button type="submit"><a href="../login/register.php">Register</a></button>
 
 </form>

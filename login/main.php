@@ -285,49 +285,6 @@ button a {
         </div>
         <button class="button"><a href="login.php">See more Drinks</a></button>
     </section>
-    <!-- <section class="order" id="order">
-        <h2>Place Your Order</h2>
-        <p>Order your favourite drinks and pastries online and pick them up at your convenience.</p>
-        <form action="#" method="post">
-            <div class="form-group">
-                <label for="name">Full Name:</label>
-                <input type="text" id="name" name="name" placeholder="Enter your name" required>
-            </div>
-
-            <div class="form-group">
-                <label for="email">Email Address:</label>
-                <input type="email" id="email" name="email" placeholder="Enter your email" required>
-            </div>
-
-            <div class="form-group">
-                <label for="phone">Phone Number:</label>
-                <input type="tel" id="phone" name="phone" placeholder="Enter your phone number" required>
-            </div>
-
-            <div class="form-group">
-                <label for="items">Name of Items:</label>
-                <input type="text" id="items" name="items" placeholder="Enter your items" required>
-            </div>
-
-            <div class="form-group">
-                <label for="delivery-location">Delivery Location:</label>
-                <input type="text" id="location" name="location" placeholder="Enter your location for the delivery" required>
-            </div>
-
-            <div class="form-group">
-                <label for="quantity">Quantity:</label>
-                <input type="number" id="quantity" name="quantity" min="1" value="1" required>
-            </div>
-
-            <div class="form-group">
-                <label for="message">Special Instructions:</label>
-                <textarea name="message" id="message" placeholder="Any special requests?"></textarea>
-            </div>
-
-            <button type="submit" class="order-button">Place Order</button>
-
-        </form>
-    </section> -->
     <section class="locations" id="locations">
         <h2>LOCATIONS</h2>
         <div class="location">
@@ -347,61 +304,6 @@ button a {
             <p>Pispankatu 30, 33240 Tampere</p>
         </div>
     </section>
-    <!-- <section id="reservation" class="reservation-form">
-        <h2>Reserve Your Table</h2>
-        <p>Fill out the form below to reserve your spot at Himalayan Cafe.</p>
-        <form action="submit_reservation.php" method="post">
-            <div class="form-group">
-                <label for="name">Full Name:</label>
-                <input type="text" id="name" name="name" placeholder="Enter your name" required>
-            </div>
-
-            <div class="form-group">
-                <label for="email">Email Address:</label>
-                <input type="email" id="email" name="email" placeholder="Enter your email" required>
-            </div>
-
-            <div class="form-group">
-                <label for="phone">Phone Number:</label>
-                <input type="tel" id="phone" name="phone" placeholder="Enter your phone number" required>
-            </div>
-
-            <div class="form-group">
-                <label for="date">Reservation Date:</label>
-                <input type="date" id="date" name="date" required>
-            </div>
-
-            <div class="form-group">
-                <label for="time">Reservation Time:</label>
-                <input type="time" id="time" name="time" required>
-            </div>
-
-            <div class="form-group">
-                <label for="guests">Number of Guests:</label>
-                <input type="number" id="guests" name="guests" min="1" max="10" required>
-            </div>
-
-            <div class="form-group">
-                <label for="message">Special Requests:</label>
-                <textarea name="message" id="message" placeholder="Any special requests?" rows="4"></textarea>
-            </div>
-
-            <button type="submit" class="reserve-button">Make Reservation</button>
-        </form>
-    </section> -->
-    <!-- <section class="feedback" id="feedback">
-        <h2>We Value YOur Feedback</h2>
-        <p>Let us know how we can improve your experience.</p>
-        <form action="#" method="post">
-            <div class="form-group">
-                <input type="text" name="name" placeholder="Your Name" required>
-            </div>
-            <div class="form-group">
-                <textarea id="message" name="message" placeholder="Your Feedback" required></textarea>
-            </div>
-            <button type="submit" class="feedback-button">Submit</button>
-        </form>
-    </section> -->
     <section class="reviews" id="review">
         <h2>What Our Customers Say</h2>
         <div class="review">
