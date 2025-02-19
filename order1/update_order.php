@@ -43,7 +43,3 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     <textarea name="message"><?php echo $row['message']; ?></textarea>
     <button type="submit">Update Order</button>
 </form>
-
-
-<!-- simple_order1 -->
-
