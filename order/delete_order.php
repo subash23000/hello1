@@ -3,7 +3,12 @@ include 'db.php';
 
 if (isset($_GET['id'])) {
     $id = $_GET['id'];
-    mysqli_query($conn, "DELETE FROM orders WHERE id = $id");
-    header("Location: view_orders.php");
+    $query = "DELETE FROM orders WHERE id = $id";
+    
+    if (mysqli_query($conn, $query)) {
+        echo "<script>alert('Order deleted successfully!'); window.location.href='view_orders.php';</script>";
+    } else {
+        echo "Error deleting record: " . mysqli_error($conn);
+    }
 }
 ?>

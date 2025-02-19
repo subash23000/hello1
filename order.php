@@ -21,6 +21,9 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 }
 ?>
 
+
+
+
 <h2>Place an Order</h2>
 <form method="POST">
     <input type="text" name="name" required placeholder="Your Name">
